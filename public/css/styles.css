@@ -1,0 +1,68 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+  border-bottom: 1px solid #1abc9c;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: #1abc9c;
+  border: none;
+}
+.form-group label {
+  font-size: 20px;
+}
+
+.contacts {
+  font-size: 20px;
+  padding: 0;
+}
+
+.contacts i {
+  color: black;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: black;
+}
+
+.contacts li {
+  margin-bottom: 5px;
+}
+
+.contacts a:hover {
+  color: #1abc9c;
+}
+
+.footer {
+  background-color: #1abc9c;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #fff;
+}
